@@ -17,7 +17,7 @@ class search:
     
     def __str__(self):
         if self.result.status_code == 200:
-            return self.result.text
+            return json.loads(self.result.text)
         else:
             return "DaumDictSearch¥¥¥"
     
