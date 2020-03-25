@@ -21,7 +21,7 @@ class search:
         else:
             return "DaumDictSearch¥¥¥"
     
-    #return type :  json text
+    #return type :  decoded json text
 
     
         
